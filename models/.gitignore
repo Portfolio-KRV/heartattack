@@ -1,0 +1,6 @@
+# Ignore everything in models/ except the integrity checksums file —
+# the model artifact itself is heavy and rebuildable, but checksums.json
+# must be tracked so verify_file_integrity has a trusted reference.
+*
+!.gitignore
+!checksums.json
